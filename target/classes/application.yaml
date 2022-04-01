@@ -1,0 +1,19 @@
+# 应用名称
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 1000
+    min-spare-threads: 30
+  port: 11231
+  servlet:
+    context-path: /redis-data-structure-extend
+
+
+spring:
+  application:
+    name: redis-data-structure-extend
+  redis:
+    database: 1
+    host: moda-baidu
+    port: 15268
+    password: 3edc4rfv
